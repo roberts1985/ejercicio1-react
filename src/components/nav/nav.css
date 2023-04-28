@@ -1,0 +1,49 @@
+nav {
+    width: 95vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#nav-image{
+    width: 10vw;
+}
+
+#nav-menu {
+    width: 90vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-menu ul {
+    width: 30vw;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#nav-btn {
+    width: 15vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btn-login {
+    border: none;
+    background-color: white;
+}
+
+#btn-register {
+    width: 40%;
+    height: 40%;
+    border-radius: 0.5rem;
+    background-color: white;
+}
